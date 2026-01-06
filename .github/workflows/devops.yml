@@ -28,7 +28,7 @@ jobs:
         run: ./build_scripts/package.sh
 
       - name: upload build devops
-        uses: actions/upload-devops11@v4
+        uses: actions/upload-artifact@v4
         with:
           name: build-output
           path: build-output/
